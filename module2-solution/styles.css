@@ -1,0 +1,43 @@
+.menu-title {
+    text-align: center;
+}
+
+.sections {
+    display: flex;
+}
+
+section {
+    background-color: grey;
+    border: 1px solid black;
+    margin: 2%;
+    box-sizing: border-box;
+}
+
+section > h2 {
+    text-align: center;
+    color: white;
+    width: 25%;
+    padding: 1%;
+    margin: 0;
+    border: 1px solid black;
+    position: relative;
+    left: 72.5%;
+}
+
+section > p {
+    padding: 3%;
+    color: white;
+}
+
+.section-1 > h2 {
+    background-color: crimson;
+}
+
+.section-2 > h2 {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.section-3 > h2 {
+    background-color: cadetblue;
+}
